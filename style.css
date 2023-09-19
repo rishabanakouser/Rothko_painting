@@ -1,0 +1,53 @@
+.canvas{
+   width:500px;
+   height:600px;
+   background-color: rgb(87, 5, 112);
+   /* padding:1px;
+   Adding 1 pixel of padding to the top, bottom, left, and right of the canvas changed its dimensions to 502 pixels x 602 pixels. */
+   overflow:hidden;
+   filter: blur(2px); /*blur effect*/
+
+}
+h1{
+  font-family:sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+.one,.two{
+   filter: blur(1px);
+}
+
+.frame{
+   border:50px solid black;
+   width:500px;
+   padding: 50px;
+  margin: 20px auto;
+ }
+ .one{
+   width:425px;
+   height:150px;
+   background-color: #3845ad;
+   margin:20px auto;
+   box-shadow:0 0 3px 3px #3845ad;
+   border-radius: 9px;
+   transform:rotate(-0.6deg);
+ }
+ .two{
+   width:475px;
+   height:200px;
+   background-color: #6a0596;
+   margin:0 auto 20px;  /* top-0,right and left: auto bottom-20px*/
+   box-shadow: 0 0 3px 3px #6d3286;
+   border-radius: 8px 10px;
+   transform:rotate(0.4deg);
+ }
+ .three{
+   width:91%;
+   height:28%;
+   background-color: rgb(136, 15, 229);
+   margin:auto;
+   filter: blur(2px);
+   box-shadow: 0 0 5px 5px  rgb(136, 15, 229);
+   border-radius:30px 25px 60px 12px;
+   transform:rotate(-0.2deg);
+ }
